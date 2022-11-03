@@ -25,6 +25,7 @@
         name: wireshark
         state: latest
 
+<<<<<<< HEAD
 - name: create directory, file and set timezone on all servers
   hosts: webservers, nfs, db, lb
   become: yes
@@ -44,3 +45,6 @@
       timezone: 
         name: Africa/Lagos   
 
+=======
+        
+>>>>>>> b63fa55 (changes)
